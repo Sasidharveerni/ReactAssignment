@@ -147,7 +147,7 @@ function App1() {
         <div>
           <h2 className="text-xl font-bold">Settings</h2>
           
-          {/* Add the content for the Settings section */}
+
         </div>
       </div>
     </div>
