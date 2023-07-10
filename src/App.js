@@ -92,4 +92,3 @@ export default App;
 
 
 
-export defualt App;
