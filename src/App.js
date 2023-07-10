@@ -58,7 +58,7 @@ function App() {
                   required
                   className="w-full border border-gray-300 rounded px-3 py-2"
                 />
-                <a href="#" className="text-blue-500 text-sm mt-1 block">
+                <a href="https://www.google.com" className="text-blue-500 text-sm mt-1 block">
                   Forgot Password?
                 </a>
               </div>
@@ -71,7 +71,7 @@ function App() {
     
           </div>
           <p className="text-center mt-4 mb-12">
-              Don't have an account? <a href="#" className="text-blue-500">Register here</a>
+              Don't have an account? <a href="https://www.google.com" className="text-blue-500">Register here</a>
             </p>
         </div>
        
@@ -82,79 +82,8 @@ function App() {
 
 
 
-function App1() {
-  return (
-    <div className="flex h-screen">
-      <div className="w-1/3 bg-gray-200 p-8">
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-xl font-bold">Dashboard</h2>
-          <div className="flex items-center space-x-2">
-            <div className="bg-gray-400 w-6 h-6 rounded-full"></div> {/* Notification icon */}
-            <img className="w-6 h-6 rounded-full" src="profile-image.jpg" alt="Profile" /> {/* Profile image */}
-          </div>
-        </div>
-
-        <div className="mb-8">
-          <div className="flex justify-between mb-4">
-            <div>
-              <p className="text-gray-600">Total Revenue</p>
-              <p className="text-2xl">$2,124,739</p>
-            </div>
-            <div>
-              <p className="text-gray-600">Total Likes</p>
-              <p className="text-2xl">[same as prev]</p>
-            </div>
-            <div>
-              <p className="text-gray-600">Total Users</p>
-              <p className="text-2xl">[div tag]</p>
-            </div>
-          </div>
-
-          {/* Add the remaining content for the left side */}
-        </div>
-      </div>
-
-      <div className="w-2/3 bg-gray-100 p-8">
-        <div className="mb-4">
-          <div className="flex justify-between items-center">
-            <h2 className="text-xl font-bold">Search Bar</h2>
-            <div className="flex items-center space-x-2">
-              <div className="bg-gray-400 w-6 h-6 rounded-full"></div> {/* Notification icon */}
-              <img className="w-6 h-6 rounded-full" src="profile-image.jpg" alt="Profile" /> {/* Profile image */}
-            </div>
-          </div>
-
-          {/* Add the content for the search bar */}
-        </div>
-
-        <div className="mb-8">
-          <div className="flex justify-between">
-            <div>
-              <h2 className="text-xl font-bold">Activities</h2>
-              <p className="text-gray-600">Schedules May - June 2021 ></p>
-            </div>
-            
-            {/* Add the content for the Activities section */}
-          </div>
-        </div>
-
-        <div className="mb-8">
-          <h2 className="text-xl font-bold">Users</h2>
-          
-          {/* Add the content for the Users section */}
-        </div>
-
-        <div>
-          <h2 className="text-xl font-bold">Settings</h2>
-          
-          {/* Add the content for the Settings section */}
-        </div>
-      </div>
-    </div>
-  );
-}
 
 
 
 
-export { App, App1};
+export default App;
