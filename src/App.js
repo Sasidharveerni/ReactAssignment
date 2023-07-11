@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
   return (
-    <>
+    <>  
       <div className="flex h-4/5">
         <div className="w-1/4 bg-gray-900 flex items-center justify-center">
           <h1 className="text-white text-3xl font-bold">Board.</h1>
