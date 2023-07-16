@@ -34,7 +34,7 @@ function App() {
             <form action="/" method="POST">
               <div className="mb-6">
                 <label htmlFor="username" className="block mb-2">
-                  Email Address
+                 Enter Email Address
                 </label>
                 <input
                   type="text"
